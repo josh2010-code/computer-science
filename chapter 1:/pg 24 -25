@@ -1,4 +1,47 @@
+#4
+secs = int(input("enter a five digit number"))
+mins = secs /60
+mins = round(mins,0)
+print(secs,"is",mins,"minute")
 
+#5
+no1 = input("enter a letter")
+no2 = input(": enter a letter")
+no3 = input(": enter a letter")
+no4 = input(": enter a letter")
+no5 = input(": enter a letter")
+ascii = ord(no1)
+print("The decimal value for the letter",no1, "is: ",ascii)
+ascii = ord(no2)
+print("The decimal value for the letter",no2, "is: ",ascii)
+ascii = ord(no3)
+print("The decimal value for the letter",no3, "is: ",ascii)
+ascii = ord(no4)
+print("The decimal value for the letter",no4, "is: ",ascii)
+ascii = ord(no5)
+print("The decimal value for the letter",no5, "is: ",ascii)
+
+#6
+ahmed = (684)
+unitPrice = (0.19)
+standingCharge = (26.20)
+print(ahmed)
+print(unitPrice)
+print(standingCharge)
+paymentDue = ahmed * unitPrice + standingCharge
+print(paymentDue)
+user = float(input("Enter your number of units: "))
+paymentDue = user * unitPrice + standingCharge
+print("please pay","€",paymentDue)
+
+#7
+fish = float(4.50)
+chips = float(2.80) 
+portionFish = int(input("how many fish?: "))
+portionChips = int(input("how many chips: "))
+totalF = (portionFish * fish)
+totalC = (portionChips * chips)
+print("please pay","€",totalF + totalC
 #8
 word = input("Enter your secret word(5 letters)")
 if word.__contains__(" "):
