@@ -1,1 +1,25 @@
 
+#8
+word = input("Enter your secret word(5 letters)")
+if word.__contains__(" "):
+      print("No space please")
+      #word = input("Enter your secret word")
+else: 
+    key = int(input("Enter your key (0-25)"))
+word = word.lower()
+l1 = word[0] 
+l2 = word[1] 
+l3 = word[2]
+l4 = word[3]
+l5 = word[4]
+ascii = ord(l1)
+newl1 = chr((ascii - ord("a") + key) % 26 + ord("a")) 
+ascii = ord(l2)
+newl2 = chr((ascii - ord("a") + key) % 26 + ord("a"))
+ascii = ord(l3)
+newl3 = chr((ascii - ord("a") + key) % 26 + ord("a"))
+ascii = ord(l4)
+newl4 = chr((ascii - ord("a") + key) % 26 + ord("a"))
+ascii = ord(l5)
+newl5 = chr((ascii - ord("a") + key) % 26 + ord("a"))
+print(newl1+newl2+newl3+newl4+newl5)
