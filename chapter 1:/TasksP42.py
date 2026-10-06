@@ -1,6 +1,6 @@
 #tasks pg42 and pg43
 #1
-"""
+
 noList = []
 for i in range(5):
     num = int(input("Enter a number: "))
@@ -65,7 +65,7 @@ for i in range(7):
     else:
         dig += 1
         
-"""
+
 #4
 saleP = int(input("enter the amount of salepersons: "))
 pers = []
