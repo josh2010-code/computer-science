@@ -123,4 +123,4 @@ print(pers[Max],"made the most")
 
 average = total / len(pers)
 average = round(average,ndigits = 3)
-print("average: ",average,"cm")
+print("average: ",average)
