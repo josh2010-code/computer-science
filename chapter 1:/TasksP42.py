@@ -97,6 +97,24 @@ for i in range(saleP-1):
 print("total earnings: €",total)
    
 #max/min
+maximum = max(made)
+minimum = min(made)    	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
 m2 = 1
 currentMin = []
 Min = []
@@ -124,3 +142,4 @@ print(pers[Max],"made the most")
 average = total / len(pers)
 average = round(average,ndigits = 3)
 print("average: ",average)
+"""
